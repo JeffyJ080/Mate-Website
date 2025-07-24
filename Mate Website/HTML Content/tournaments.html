@@ -1,0 +1,158 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mate Tournaments | What we Do</title>
+    <link rel="icon" type="image/x-icon" href="../logo light.png">
+    <link rel="stylesheet" href="../Styling.css" />
+    <script src="Scripting.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <!--<img src="logo light.jpg" alt="Logo"/>-->
+            <aa>Mate Tournaments</aa>
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tournaments.html">Tournaments</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#leaderboard">Leaderboard</a></li>
+                <!--<li><a href="knight-circuit.html">The Knight Circuit</a></li>-->
+            </ul>
+        </header>
+
+        <main class="content">
+            <div class="hero">
+                <h1>Tournaments</h1>
+                <p>Welcome to our repitoire of tournaments!</p>
+                <p>We offer several tournaments as is and hope to offer more some day. If you wish to join one of them be sure to let us know!</p>
+                <button class="btn" onclick="scrollToContact()">Contact Us</button>
+            </div>
+
+            <section id="TournamentCards">
+                <div class="info-box" id="KnightCircuit">
+                    <h2 align="center">Knight Circuit</h2>
+                    <p>
+                        Inter-University league where the best university will reach victorius.<br />
+                        Does your team have what it takes to be number one?
+                    </p>
+                    <p>Come and try your luck. Contact us bellow to sign up your university or college.</p>
+                    <div class="btn-container">
+                        <a href="knight-circuit.html">
+                            <button class="btn">More info</button>
+                        </a>
+                    </div>
+                </div>
+
+                <div>
+                    <br />
+                    <br />
+                </div>
+
+                <!--<div class="info-box" id="MootMat">
+        <h2 align="center">Moot Mat</h2>
+        <p>
+            An Inter-School league played on an invite setting. Top schools compete for the ultimate domination in the chess world.<br />
+            With the idea to improve chess and create oppertunities we poudly host this league to schools.
+        </p>
+        <p>Can your school compete? Click below for more info on how to apply.</p>
+        <div class="btn-container">
+            <a href="moot-mat.html">
+                <button class="btn">More info</button>
+            </a>
+        </div>
+    </div>-->
+                <!--<div>
+        <br />
+        <br />
+    </div>-->
+
+                <div class="info-box" id="TonisPizza">
+                    <h2 align="center">Pizza meets Chess</h2>
+                    <p>
+                        A local chess event hosted at Toni's Pizzaria. Individual tournaments over months with a top ranking system.<br />
+                        Can you hold the number one spot or will someone take it from you?
+                    </p>
+                    <p>For more info click bellow or contact us</p>
+                    <div class="btn-container">
+                        <a href="tonis-pizza.html">
+                            <button class="btn">More info</button>
+                        </a>
+                    </div>
+                </div>
+
+                <div>
+                    <br />
+                    <br />
+                </div>
+
+                <!--<div class="info-box" id="Spur">
+        <h2 align="center">Spur-ing the Youth</h2>
+        <p>
+            A local chess event hosted at Spur. Individually ranked tournaments with prizes for top players.<br />
+            Can you reign champion or will you blunder your king?
+        </p>
+        <p>For more info click bellow or contact us</p>
+        <div class="btn-container">
+            <a href="#spur">
+                <button class="btn">More info</button>
+            </a>
+        </div>
+    </div>-->
+
+                <div class="info-box" id="Sinkhuis">
+                    <h2 align="center">Since 1892</h2>
+                    <p>
+                        A local chess event hosted at Sinkhuis Restaurant. Individual tournaments over months with a top ranking system.<br />
+                        Can you become the house master?
+                    </p>
+                    <p>For more info click bellow or contact us</p>
+                    <div class="btn-container">
+                        <a href="#sinkhuis">
+                            <button class="btn">More info</button>
+                        </a>
+                    </div>
+                </div>
+
+                <div>
+                    <br />
+                    <br />
+                </div>
+
+                <div class="info-box" id="Die Malhuis">
+                    <h2 align="center">Crazy Competitive? Look no further</h2>
+                    <p>
+                        A local chess event hosted at MalHuis. Individual tournaments every week with a top ranking system.<br />
+                        Are you crazy enough to rank number one?
+                    </p>
+                    <p>For more info click bellow or contact us</p>
+                    <div class="btn-container">
+                        <a href="#malhuis">
+                            <button class="btn">More info</button>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="contact" id="contact">
+                <h2>Contact Us</h2>
+                <form class="contact-form" action="https://formspree.io/f/your-form-id" method="POST" onsubmit="return showSuccessMessage();">
+                    <input type="text" name="name" placeholder="Your Name" required />
+                    <input type="email" name="email" placeholder="Your Email" required />
+                    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+                <div id="success-message">Thank you! Your message has been sent successfully. We'll get back to you shortly.</div>
+            </section>
+        </main>
+
+        <footer>
+            <img src="logo light.jpg" alt="Logo" align="right" height="150px" />
+            <h4 align="left">Contact Us:</h4>
+            <p align="left">Email: christiaanfcoetzee@gmail.com<br />Phone: 062 693 8387</p>
+            <p>&copy; 2025 Mate. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>

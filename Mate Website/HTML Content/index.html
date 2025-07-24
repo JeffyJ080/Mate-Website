@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mate Tournaments | Chess Tournaments & Equipment</title>
+    <link rel="icon" type="image/x-icon" href="../logo light.png">
+    <link rel="stylesheet" href="../Styling.css" />
+    <script src="Scripting.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <!--<img src="logo light.jpg" alt="Logo"/>-->
+            <aa>Mate Tournaments</aa>
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tournaments.html">Tournaments</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#leaderboard">Leaderboard</a></li>
+            </ul>
+        </header>
+
+        <main class="content">
+            <div class="hero">
+                <h1>Welcome to Mate Tournaments</h1>
+                <p>Quality Equipment. Unforgettable Tournaments.</p>
+                <button class="btn" onclick="scrollToContact()">Contact Us</button>
+            </div>
+
+            <section class="about">
+                <h2>About Us</h2>
+                <p>Mate is a professional chess business that offers well-organized tournaments brought right to your doorstep. We serve schools, universities, clubs, and communities across Gauteng with the goal to expand nationally.</p>
+            </section>
+
+            <section class="services">
+                <h2>Our Services</h2>
+                <ul>
+                    <li><strong>Tournament Hosting</strong> – Swiss, Arena & more formats for all levels.</li>
+                    <li><strong>Organising Tournaments</strong> – We handle all organisation of chess events.</li>
+                    <li><strong>Support & Consultation</strong> – For schools and first-time organizers.</li>
+                </ul>
+            </section>
+
+            <section class="gallery">
+                <a href="#img1"><img src="../Images/img1.jpg" alt="Chess Event 1"></a>
+                <a href="#img2"><img src="../Images/img7.jpg" alt="Chess Event 2"></a>
+                <a href="#img3"><img src="../Images/img3.jpg" alt="Chess Event 3"></a>
+                <a href="#img4"><img src="../Images/img4.jpg" alt="Chess Event 4"></a>
+                <a href="#img5"><img src="../Images/img5.jpg" alt="Chess Event 5"></a>
+                <a href="#img6"><img src="../Images/img2.jpg" alt="Chess Event 6"></a>
+            </section>
+
+            <section class="contact" id="contact">
+                <h2>Contact Us</h2>
+                <form class="contact-form" action="https://formspree.io/f/your-form-id" method="POST" onsubmit="return showSuccessMessage();">
+                    <input type="text" name="name" placeholder="Your Name" required />
+                    <input type="email" name="email" placeholder="Your Email" required />
+                    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+                <div id="success-message">Thank you! Your message has been sent successfully. We'll get back to you shortly.</div>
+            </section>
+        </main>
+
+        <footer>
+            <img src="logo light.jpg" alt="Logo" align="right" height="150px" />
+            <h4 align="left">Contact Us:</h4>
+            <p align="left">Email: christiaanfcoetzee@gmail.com<br />Phone: 062 693 8387</p>
+            <p>&copy; 2025 Mate. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
